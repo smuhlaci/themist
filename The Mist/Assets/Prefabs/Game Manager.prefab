@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1341614515189566}
+  m_IsPrefabAsset: 1
+--- !u!1 &1341614515189566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4232085607471178}
+  - component: {fileID: 114882465184862934}
+  - component: {fileID: 114409476164777146}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4232085607471178
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341614515189566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114409476164777146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341614515189566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09e72206be544581ab6bfb6d18f80f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114882465184862934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341614515189566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d74bee9508eb4ec8af16b38f60abc31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: 10
+  water: 10
+  faith: 50
+  order: 50
+  maxValue: 100
+  starterFollowerCount: 4
+  Missions:
+  - {fileID: 11400000, guid: 50f98b42fe27a43e2ac38099bd7c9714, type: 2}
+  - {fileID: 11400000, guid: 4aa95c472a4b8454c8ea89cf9d3d7f92, type: 2}
+  - {fileID: 11400000, guid: fcd90e222a0374ae2a36a63818eed757, type: 2}
+  - {fileID: 11400000, guid: ed99618f0bf2047f99505298d76c4c79, type: 2}
+  - {fileID: 11400000, guid: a2704cbfe294d41cf95a1398117ea93c, type: 2}
+  - {fileID: 11400000, guid: 9bdbfd2a599f2473fb72c1416c146076, type: 2}
+  - {fileID: 11400000, guid: 41578a8bf9d4e47d7a3f9d914dc92d8b, type: 2}
+  - {fileID: 11400000, guid: 11af3d240b7fe4076a8e92e7d3711681, type: 2}
+  - {fileID: 11400000, guid: 6584c0261b32e41f7900295b7a1cdd4d, type: 2}
+  - {fileID: 11400000, guid: 4514fac0702304927963e0dd4c3b3014, type: 2}
+  - {fileID: 11400000, guid: b3d49e6ac13734e10b52859872597a90, type: 2}
+  - {fileID: 11400000, guid: 206ecb838481945c0abd421e7187d44a, type: 2}
+  - {fileID: 11400000, guid: a5ce7b1035cec42688937dca39f6ddc6, type: 2}
+  - {fileID: 11400000, guid: 15fe9efe5290a4f2fba00c612867d047, type: 2}
+  - {fileID: 11400000, guid: 4a6b6b4ed18ea4a1cbb3bfa9131c1dbe, type: 2}
+  - {fileID: 11400000, guid: cf42ee51a8ae24a1ab82b232eab1560e, type: 2}
+  - {fileID: 11400000, guid: 200848e2f387e43df9716e2f0461000f, type: 2}
+  - {fileID: 11400000, guid: 3817789a4122744b8ae918b4b3f5f443, type: 2}
+  - {fileID: 11400000, guid: eb5e261f3c20849b1bad401cb5107ec2, type: 2}
+  - {fileID: 11400000, guid: cd61a948270884f0f92122d8b1226af3, type: 2}
+  - {fileID: 11400000, guid: 667a0a46596814ef9bcfb1706da357f8, type: 2}
+  - {fileID: 11400000, guid: a6726cb6413794b64b83c2f03d66467c, type: 2}
+  - {fileID: 11400000, guid: c0b4415d19d244e5b922ec6259ad8e7f, type: 2}
+  - {fileID: 11400000, guid: c1b1fda8c473b430aba415e380bcbf2a, type: 2}
+  - {fileID: 11400000, guid: 3ac6782ada45046abb99a8078cae2bba, type: 2}
+  - {fileID: 11400000, guid: 9ab8726d3ce6348cd8514b8e68199142, type: 2}
+  CharacterDatas:
+  - {fileID: 11400000, guid: a6207b8aff0df4173a222f59a6d27ee7, type: 2}
+  - {fileID: 11400000, guid: 1aa84164661cf449f8573175a77c8042, type: 2}
+  - {fileID: 11400000, guid: 67e56d0a74dcc40cab89c9c90e51e344, type: 2}
+  - {fileID: 11400000, guid: db3de1c68091d4a4c93c5c7594261dff, type: 2}
+  - {fileID: 11400000, guid: 160cd52ffcef946208f2a99a84d9351f, type: 2}
+  - {fileID: 11400000, guid: 745a162491b33458e9d0b6942030158b, type: 2}
+  - {fileID: 11400000, guid: 49143e3b19c7f458a8962b9aba8fd5ab, type: 2}
+  - {fileID: 11400000, guid: 228ea76130db64f4aa3596e37499cb75, type: 2}
+  - {fileID: 11400000, guid: 3c447e9b125354bad85829602b168914, type: 2}
+  - {fileID: 11400000, guid: 8c651b98c1216444dad29e289d699bfd, type: 2}
+  - {fileID: 11400000, guid: 1006238c67c304cb2a02e62de6da6c3d, type: 2}
+  - {fileID: 11400000, guid: 9e27819415c31441a9b111c62f9b9b1c, type: 2}
+  - {fileID: 11400000, guid: ba7c0e3532458438eb6b557a02c14754, type: 2}
+  - {fileID: 11400000, guid: da3a1c0934805422e97c4fea90174975, type: 2}
+  - {fileID: 11400000, guid: 0069366ccd08e4bb99c4ad075a4eb3c2, type: 2}
+  - {fileID: 11400000, guid: 2ec65042a1f28445aa0e0a709660f6e6, type: 2}
+  - {fileID: 11400000, guid: 5c509af612a8d442fa7b3ce6ab84d4fa, type: 2}
+  - {fileID: 11400000, guid: ab90395316f1a4904b1017d3ffae8add, type: 2}
+  - {fileID: 11400000, guid: d368f9f1ad4704a0ab6d7d713dd1d2e3, type: 2}
+  - {fileID: 11400000, guid: 003c2d3d488bd4178a04127d32b7aa97, type: 2}
+  followerPrefab: {fileID: 1808278011217454, guid: a2e393867934944f89110668af39ef39,
+    type: 2}
+  IMGFoodBar: {fileID: 0}
+  IMGWaterBar: {fileID: 0}
+  IMGFaithBar: {fileID: 0}
+  IMGOrderBar: {fileID: 0}
+  TXTDay: {fileID: 0}
+  TXTGameOver: {fileID: 0}
+  ResourceSprites:
+  - {fileID: 21300000, guid: 0ba69d55baca54b43ba98006b7818380, type: 3}
+  - {fileID: 21300002, guid: 0ba69d55baca54b43ba98006b7818380, type: 3}
+  - {fileID: 21300004, guid: 0ba69d55baca54b43ba98006b7818380, type: 3}
+  - {fileID: 21300006, guid: 0ba69d55baca54b43ba98006b7818380, type: 3}
